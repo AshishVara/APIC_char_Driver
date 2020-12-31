@@ -7,3 +7,9 @@ Implement ioctl operation for the following:
         2. APIC_GETIRQS         --> returns number of irq pins on APIC
         3. APIC_GETIRQSTATUS    --> returns irq pin status(enable or disable)
         4. APIC_GETIRQTYPE      --> returns irq pin signal type(level or edge trigger)
+
+*APIC_sysfs*
+This folder contains APIC char driver using sysfs iterface.
+
+*APIC_devtempfs*
+This folder contains APIC char driver using devtempfs interface.
